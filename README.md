@@ -19,7 +19,7 @@ Java SE	17.0.4
     if the database is empty return empty array.
   
   •	POST /orders: this endpoint allows to create an order, an order is described by his ID,
-    Reference (random alphanumeric string), List<Article>, date.
+    Reference (random alphanumeric string),List<Article>,date.
   
   •	PUT /orders/{id}: this endpoint allows to edit articles (remove/add new article) of an order and
     if is not found will return 400 http response.
